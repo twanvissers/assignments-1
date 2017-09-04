@@ -1,8 +1,8 @@
-# assignments
-this repository contains my assignments
+# Assignments
+This repository contains my assignments
 
-[assignment 1]()
+-[Assignment 1]()
 
-[assignment 2]()
+-[Assignment 2]()
 
-[my CV](https://github.com/joostbouten/assignments/blob/master/CV.md)
+-[My CV](https://github.com/joostbouten/assignments/blob/master/CV.md)
