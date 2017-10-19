@@ -423,6 +423,8 @@ _**Results of the paper:**_
 -
 ### Lecture 5: Employee selection
 
+Employee selection: the intensity with which specific recruitment and selection processes are used to build human capital within a firm.
+
 Employees that match with the firm ...
 
 - need to be less monitored/incentivized
@@ -443,3 +445,359 @@ Does careful employee selection really make a difference?
 
 *Incentive alignment problem:* motivating employees to use decision-making authority in a way that leads to better financial performance in the future
 
+Employee selection, preferred employees have certain characteristics:
+
+- Empathy
+- Desire to help others
+- Confidence in decision-making
+- Desire to learn
+- ...
+
+_**Results of the paper:**_	
+
+1. Employee selection as an important control mechanism when measuring on output measures is difficult
+2. Employees selected through channels that focus on preference alignment are more likely to execute the firms' strategy effectively
+3. Friends that are selecting friends $\rightarrow$ critical voice not allowed anymore
+
+-
+### Lecture 5: Paper 2
+
+#### Dierynck & Van Pelt
+
+Firms are looking for employees who identify with the firm's objectives.
+
+Employees who identify with the firm's objectives are more likely to choose higher effort levels under the same performance-based employment contract.
+
+**The sorting effect:** a contract that includes discretionary adjustment less valueable to employees that do not identify with the firm.
+ 
+_**Results of the paper:**_
+ 
+1. Discretionary adjustment facilitates the sorting of individuals into firms following a strategy for which they reveal a preference: ex-post as well as ex-ante contract execution.
+(selection effect)
+
+-
+### Lecture 5: Paper 3
+#### Abernethy et al.
+
+Employee selection and incentive contracts (PMs): complements or substitutes to motivating employees?
+
+Relationship between employee selection and performance measures depends on
+
+1. Strategic focus of the firm
+2. Noise of the developed performance measures
+
+*Multi-task problem:* contracting imperfection arising when some tasks can be easily measured (sales) but others cannot (innovation) and many desired outcomes have a long-term horizon -- (Goal congruence)
+
+$\rightarrow$ Employee selection and incentive contracting are complementary control choices
+
+*Noisy performance measures:* firms that are highly committed to orgazational learning attach a lot of importance to innovation -- few good performance measures available (external volatility $\rightarrow$ noise) $\rightarrow$ rely more on employee selection
+
+$\rightarrow$ For firms that are committed to orgazational learning: selection processes and incentive contracting are substitutes. Relation depends on noise associated with external volatility.
+
+_**Results of the paper:**_ 
+
+1. Interrelationships between importance of employee selection and importance of performance measures
+	- Complements if PMs are not too noisy
+	- Substitutes if PMs are too noisy
+
+-
+
+### Lecture 6: Leadership 
+
+- Traditional leader: unidirectional communication -- from leader to team members
+- Modern leader: positive role model while also a human being -- bi-directional communication
+
+-
+### Lecture 6: Paper 1
+#### Leroy et al. 
+
+_The problem_
+
+Double bind conflict:
+
+Employees should follow procedures (efficiency) $\Leftrightarrow$ Employees should speak up when procedures are no longer fitted to the environment
+
+_The solution_
+
+**Behavioral integrity:** talking should be backed up by actions (word-action consistency)
+
+_**Results of the paper:**_
+
+$\rightarrow$ Team priority of safety is negatively related to reported errors
+
+$\rightarrow$ Team psychological safety is positively related to reported errors
+
+$\rightarrow$ A leader's behavioral integrity for safety is positively related to team priority of safety
+
+$\rightarrow$ A leader's behavioral integrity for safety is positively related to team psychological safety
+
+$\rightarrow$ Team priority of safety is more negatively related to reported errors for higher levels of team psychological safety
+
+$\rightarrow$ Team priority of safety and team psychological safety mediate the effect of a leader's behavioral integrity for safety on reported errors
+
+$\Rightarrow$ Behavioral integrity can stimulate both sides of the double bind conflict
+
+-
+### Lecture 6: Paper 2
+#### Dierynck & Vandenbogaerde
+
+Delivering audit quality = a team task $\rightarrow$ behavior of the leader has important impact
+
+
+_**Results of the paper:**_
+
+$\rightarrow$ Perceived behavioral integrity of the immediate supervisor is positively related to job satisfaction and learning orientation of the junior auditor (direct)
+
+$\rightarrow$ Perceived behavioral integrity of the immediate supervisor is positively related to job satisfaction and learning of the junior auditor through the psychological safety of the environment
+
+-
+
+### Lecture 6: Paper 3
+#### Nelson & Proell
+
+Auditors should raise potentially important information to audit leaders and leaders should encourage such behavior
+
+The expected reaction of the leader determines the amount of information that is revealed
+
+_**Results of the paper:**_
+
+_During appraisal_
+
+$\rightarrow$ Audit supervisors evaluate auditors more highly when they speak up
+
+$\rightarrow$ Speaking up about issues aligned with the team leader's focus leads to higher evaluation
+
+_In the moment_
+
+$\rightarrow$ Audit supervisors are more irritated towards auditors who speak up (leads to additional effort)
+
+$\rightarrow$ Speaking up about effectiveness (relative to efficiency) leads to more irritation of supervisors
+
+$\rightarrow$ Supervisors are more irritated towards auditors who speak up about issues that are misaligned with the supervisor's preference
+
+This inconsistency between initial reaction and performance evaluation can lead to less sharing of necessary information
+
+-
+
+### Lecture 6: Paper 4
+#### Mayer et al.
+
+*Ethical leadership:* demonstration and promotion of normatively appropriate conduct through interpersonal relationships, two-way communication, reinforcement and decision-making
+
+Social learning: role modeling and rewarding ethical behavior 
+
+Social exchange theory: reward for creation of trust and fairness
+
+Deviance: voluntary behavior that violates the norms of the group (stealing)
+
+OCB: Behavior that is positive but not rewarded (helping collegues) 
+
+**_Results of the paper_**
+
+$\rightarrow$ Cascading-effect: top management ethical leadership will be positively related to supervisory ethical leadership
+
+$\rightarrow$ Top management and supervisory ethical leadership will be negatively related to group deviance and positively related to group OCB
+
+Ethical leadership trickles down from top to bottom through role modelling and rewarding ethical behavior, and reciprocal exchanges.
+
+-
+
+### Lecture 7: Honesty in reporting
+
+What will be reported?
+
+What are potential control systems in business reporting?
+
+
+
+-
+### Lecture 7: Paper 1 
+#### Hannan et al.
+
+Honest reporting posts a tradeoff:
+
+- Report honest -- benefits of appearing honest
+- Report dishonest -- acquire more resources
+
+Depending on the characteristics of the environment, people behave prosocial (honest) or self-interested (dishonest). Presence and precision of an information system is a characteristic that is expected to change this behavior.
+
+A _coarse information system_ shifts behavior towards being prosocial:
+signal of the information system is used to update beliefs about the agent's private information
+
+A _precise information system_ shifts behavior towards being self-interested: cost of appearing honest is larger for a precise information system
+
+Sometimes a bit of dishonesty needs to be allowed: over control can harm the firm in a way that is not detected by the control system
+
+-
+### Lecture 7: Paper 2
+
+#### Cardinaels & Yin
+
+Introducing an incentive system reduces the monetary gains of dishonest reporting, shifts balance towards honesty.
+
+Incentive effect $\rightarrow$ Introducing incentive systems decreases the amount of misrepresentation
+
+Trust effect $\rightarrow$ Through reduced trust, introducing an incentive system will lead to more misrepresentation
+
+Information leakage effect $\rightarrow$ Through revealing a discriptive social norm of dishonesty, introducing an incentive system will lead to more misrepresentation
+
+**_Results of the paper:_**
+
+Information leakage is stronger for people with higher tendency to conform with the social norm
+
+Only if the implementation is decided upon randomly than all three effects disappear 
+
+Hard controls have an incentive effect that can be completely offset by the information leakage and trust effects, they only have positive effect if they are not too hard and if risk on negative trust and information leakage is mitigated
+
+-
+### Lecture 7: Paper 3
+#### Mazar et al.
+
+Economics -- people are purely self-interested, three determinants of dishonesty
+
+1. Magnitude of external rewards
+2. Probability of being caught
+3. Magnitude of punishment
+
+Psychology -- people have an internal values system, compliance provides positive rewards
+
+There is a _Band of dishonest behavior_ that does not hurt the honest self-concept
+
+This band is determined by
+
+- Categorization
+	- Some categories allow people to reinterpret their behavior in a self-serving matter (stealing a pen)
+	- Als this "categorization malleability" increases, the band gets larger
+- Attention to standards
+	- If people are aware of the moral standards, a dishonest act is more likely to be reflected in their self-concept
+	- Accessibility of moral standards is positively related to honesty
+
+Alternative explanations: behavior is sensitive to expected behavior of others		 	 
+_**Results of the paper:**_
+
+When people have the ability to cheat, they cheat: but much less than economic theory predicts
+
+People try to balance financial benefit from dishonesty and benefit from maintaining a positive self-concept
+
+The amount of dishonesty that people allow without losing their honest self concept varies by _categorization malleability_ and the _salience of moral standards_
+
+-
+
+### Lecture 7: The slippery slope
+#### Bart Dierynck
+
+Two types of undesirable behavior
+
+- Fraud: accounting scandals
+	- New accounting rules after every scandal
+- Under-the-radar dishonesty: stealing a pen, using discretion to meet a benchmark
+	- Costly to firms, largely neglected or tackled with hard control systems
+
+**The slippery slope**:
+Committing a great infraction by a cumulative series of small infractions
+
+- Justification of unethical actions by the individual
+- Increasing the band of dishonest behavior
+- Critical point just below the "radar" of dishonesty
+
+An increase in under-the-radar dishonesty increases the probability of fraud 
+
+$\rightarrow$ focus on soft controls
+$\rightarrow$ focus on hard controls such as more transparency and appointment of auditors
+
+-
+
+### Lecture 8: Reporting of information
+
+Facilitating the process from 'big data' to 'big insights'
+
+"Is the runner more likely to run in the good direction if we give him information?"
+
+-
+
+### Lecture 8: Paper 1
+#### Liberti & Mian
+
+Junior auditor collects objective and subjective information $\rightarrow$ senior auditor and partner decide about the audit opinion based on the information collected by the junior auditor
+
+*Incentive-based theories:* employees anticipate that subjective information will be disregarded more $\rightarrow$ lowers incentives of collecting such information
+
+*Strategic manipulation of information:* loan officers make information coarses if they do not decide, coarsifying subjective information is easier
+
+*Ex-post communication costs:* costs of communicating is greater for subjective information
+
+$\rightarrow$ Introducing layers leads to difficulties in generating and transmitting subjective information
+
+**_Results of the paper_**
+
+Higher levels in hierarchy lose contact with the real worlds: firms have developed information systems provided from data from data collectors (lower level)
+
+Ex-post communication costs and "bad" organization (outsourcing, no sitting ducks policy) $\rightarrow$  difficult to transfer subjective information
+
+The problem is weakened if geographical distance between hierarchy levels is lower and when the sender is more experienced.
+
+-
+
+### Lecture 8: Paper 2
+#### Casas-Arce et al.
+
+Economic models of Bayesian updating: 
+
+- Rational agents maximize utility
+- Agents use new information to update beliefs
+
+$\rightarrow$ A Bayesian updater will be able to improve performance when feedback is frequent and detailed
+
+From the behavioral perspective it is not really clear whether more detailed / more frequent feedback will lead to better performance
+
+**_Results of the paper:_**
+
+Detailed information leads to improvements in performace only when it is provided infrequently
+
+People overreact to negative information when feedback is provided too frequently
+
+Effect of variation in information detail and frequency quickly disappears
+
+-
+
+### Lecture 8: Paper 3
+#### Van Pelt et al. 
+
+_Subject:_
+The role of managerial reporting procedures in hierarchical firms characterized by implicit contracts
+
+*Implicit (incomplete) contracts:* 
+contracts containing broad terms and objectives, mentioning mechanisms for decision-making when unforeseen events occur. With informal understanding of rewards for productive efforts.
+
+Important for these contracts: trust
+
+_Theoretical predictions:_ 
+
+- Trust increases in its verifiability
+- Information asymmetry lowers success of implicit contracts
+	- Difficult fair managers to seem fair
+	- Reduced investment and production leading to lower wealth
+
+$\rightarrow$ In the superior information treatment, wealth generation is lower, and wealth retainment by managers is higher
+
+- Making superior information accessible to other parties provides verifiability and thus increases reputation of the manager
+- Identity economics: managerial behavior shapes identity formation in firms
+- Sharing information with all other parties positively covaries with a strong collective identity and thereby increases pursuit of collective goals
+- Sharing information with some or no parties negatively covaries with a strong collective identity
+
+- Wealth generation and distribution in hierarchies depends on reporting procedures
+- Sharing information with all parties requires determination to create and sustain collective identity rather than pursuing personal goals more strongly 
+
+**GRIT:** perseverance and passion for long term goals
+
+$\rightarrow$ GRIT positively relates to likelihood of managers to report information to all parties
+
+**_Results of the paper:_**
+
+Managers not sharing all superior information comprises important costs for hierarchies governed by implicit contracts as it obstructs reputation and trust-building $\rightarrow$ decreasing wealth generation by owners and employees
+
+Over time, managers increasingly share information with all parties $\rightarrow$ increasing collective identification throughout the hierarchy
+
+Determination and consistency of interest (GRIT) are key traits for managers to share information with all parties operating in the hierarchy
+
+---
