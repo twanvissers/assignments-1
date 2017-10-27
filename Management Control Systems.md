@@ -165,7 +165,7 @@ $\rightarrow$ Subjective Performance Measures
 
 
 ### Lecture 3: Paper 1
-#### Gibbs et al.
+#### Gibbs et al. -- Subjectivity and performance measures
 
 Ways of using subjectivity: compensation, promotion, employment termination.
 
@@ -274,11 +274,11 @@ Uncontrollable performance measures ...
 - require risk compensation for employees
 - Can be perceived as unfair and reduce motivation
 
-Supervisors will use subjective evaluations to correct for uncontrollability only is it is a disadvantage to the employee.
+Supervisors will use subjective evaluations to correct for uncontrollability only if it is a disadvantage to the employee.
 
-$\rightarrow$ Leading to the SPE to be higher when controllability is low if performance on the objective measure is high.
+$\rightarrow$ Leading to the SPE to be higher when controllability is low, if performance on the objective measure is low.
 
-$\rightarrow$ And leading to the SPE to not differ between controllable and uncontrollable measures is performance is high. 	
+$\rightarrow$ And leading to the SPE to not differ between controllable and uncontrollable measures if performance is high. 	
 
 _**Results of the paper:**_		 
 
@@ -468,7 +468,7 @@ Firms are looking for employees who identify with the firm's objectives.
 
 Employees who identify with the firm's objectives are more likely to choose higher effort levels under the same performance-based employment contract.
 
-**The sorting effect:** a contract that includes discretionary adjustment less valueable to employees that do not identify with the firm.
+**The sorting effect:** a contract that includes discretionary adjustment is less valueable to employees that do not identify with the firm.
  
 _**Results of the paper:**_
  
@@ -486,13 +486,13 @@ Relationship between employee selection and performance measures depends on
 1. Strategic focus of the firm
 2. Noise of the developed performance measures
 
-*Multi-task problem:* contracting imperfection arising when some tasks can be easily measured (sales) but others cannot (innovation) and many desired outcomes have a long-term horizon -- (Goal congruence)
+*Multi-task problem:* contracting imperfection arises when some tasks can be easily measured (sales) but others cannot (innovation) and many desired outcomes have a long-term horizon -- (Goal congruence)
 
 $\rightarrow$ Employee selection and incentive contracting are complementary control choices
 
-*Noisy performance measures:* firms that are highly committed to orgazational learning attach a lot of importance to innovation -- few good performance measures available (external volatility $\rightarrow$ noise) $\rightarrow$ rely more on employee selection
+*Noisy performance measures:* firms that are highly committed to organizational learning attach a lot of importance to innovation -- few good performance measures available (external volatility $\rightarrow$ noise) $\rightarrow$ rely more on employee selection
 
-$\rightarrow$ For firms that are committed to orgazational learning: selection processes and incentive contracting are substitutes. Relation depends on noise associated with external volatility.
+$\rightarrow$ For firms that are committed to organizational learning: selection processes and incentive contracting are substitutes. Relation depends on noise associated with external volatility.
 
 _**Results of the paper:**_ 
 
@@ -510,6 +510,8 @@ _**Results of the paper:**_
 -
 ### Lecture 6: Paper 1
 #### Leroy et al. 
+
+Psychological safety: a shared belief held by the members of a team that the team is safe for interpersonal risk taking
 
 _The problem_
 
@@ -626,7 +628,7 @@ signal of the information system is used to update beliefs about the agent's pri
 
 A _precise information system_ shifts behavior towards being self-interested: cost of appearing honest is larger for a precise information system
 
-Sometimes a bit of dishonesty needs to be allowed: over control can harm the firm in a way that is not detected by the control system
+Sometimes a bit of dishonesty needs to be allowed: over-control can harm the firm in a way that is not detected by the control system
 
 -
 ### Lecture 7: Paper 2
@@ -703,6 +705,7 @@ Committing a great infraction by a cumulative series of small infractions
 An increase in under-the-radar dishonesty increases the probability of fraud 
 
 $\rightarrow$ focus on soft controls
+
 $\rightarrow$ focus on hard controls such as more transparency and appointment of auditors
 
 -
@@ -722,7 +725,7 @@ Junior auditor collects objective and subjective information $\rightarrow$ senio
 
 *Incentive-based theories:* employees anticipate that subjective information will be disregarded more $\rightarrow$ lowers incentives of collecting such information
 
-*Strategic manipulation of information:* loan officers make information coarses if they do not decide, coarsifying subjective information is easier
+*Strategic manipulation of information:* loan officers make information coarser if they do not decide, coarsifying subjective information is easier
 
 *Ex-post communication costs:* costs of communicating is greater for subjective information
 
