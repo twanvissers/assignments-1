@@ -44,5 +44,6 @@ plt.show()
 ```
 
 
-![png](output_3_0.png)
+![png](https://raw.githubusercontent.com/joostbouten/assignments/master/output_3_0.png)
+
 
