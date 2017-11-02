@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.26)  2 NOV 2017 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.26)  2 NOV 2017 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1295,15 +1295,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--561
  []
 
 [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 572.
+[11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 572.
  (./SNSBassignment1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 572.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 572.
 Package rerunfilecheck Info: File `SNSBassignment1.out' has not changed.
 (rerunfilecheck)             Checksum: 2507557A98B7A47B39BE9BD437140F64;873.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 570.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 572.
  ) 
 Here is how much of TeX's memory you used:
  20427 strings out of 492995
@@ -1332,7 +1336,7 @@ ist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/lm/lmsy5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb>
-Output written on SNSBassignment1.pdf (11 pages, 247881 bytes).
+Output written on SNSBassignment1.pdf (11 pages, 248023 bytes).
 PDF statistics:
  215 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams
