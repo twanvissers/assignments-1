@@ -1,0 +1,566 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\textwidth = 426pt
+\usepackage{lmodern}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{xfrac}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\author{Group 10}
+
+\date{3 November, 2017}
+\title{Social Norms and Strategy Behavior: Assignment 1}
+
+\begin{document}
+
+\maketitle
+%\section{Assignment 1}\label{Assignment-1}
+
+\subsubsection{Question 1}
+
+
+\begin{enumerate}[(a)]
+
+\item
+Given that player 1 believes that player 2 randomizes, the expected
+payoffs of player 1 are as follows:
+
+\[\pi_{1}\left( x_{1},x_{2} \right) = \ldots\]
+
+Where \(x_{2} = 0.5 \cdot 100 + 0.5 \cdot 900 = 500\),
+
+\[\pi_{1}\left( x_{1},\ 500 \right) = 1000 - |x_{1} - 350|\]
+
+This function is maximized if \(x_{1} = 350\).
+
+Player 1 will choose to play \(x_{1} = 350\).
+
+\item
+
+We can follow the same procedure for player 2,
+
+\[\pi_{2}\left( \sigma_{1},x_{2} \right) = \ldots\]
+
+Where \(x_{1} = 0.5 \cdot 300 + 0.5 \cdot 500 = 400\)
+
+\[\pi_{2}\left( 400,\ x_{2} \right) = 1000 - |x_{2} - 600|\]
+
+This function is maximized if \(x_{2} = 600\).
+
+Player 2 will choose to play \(x_{2} = 600\).
+
+\item
+
+As we have concluded from question b, player 2 would play
+\(x_{2} = 600\) as a level-1 player, given this strategy:
+
+\[\pi_{1}\left( x_{1},\ 600 \right) = 1000 - |x_{1} - 420|\]
+
+This function is maximized if \(x_{1} = 420\).
+
+Player 1 would choose to play \(x_{1} = 420\).
+
+\item
+
+As we have concluded from question a, player 1 would play
+\(x_{1} = 350\ \)as a level-1 player, given this strategy:
+
+\[\pi_{2}\left( 350,\ x_{2} \right) = 1000 - |x_{2} - 525|\]
+
+This function is maximized if \(x_{2} = 525\).
+
+Player 2 would choose to play \(x_{2} = 525\).
+
+\item
+
+With \(\tau = 2\), the probability with which player 1 expects player 2
+to play as a level-0 player is equal to:
+
+\[\frac{f\left( 0 \right)}{f\left( 0 \right) + f\left( 1 \right)}\]
+
+Where,
+
+\[f\left( 0 \right) = \frac{{e^{- 2} \cdot 2}^{0}}{k!} = e^{- 2}\]
+
+And
+
+\[f\left( 1 \right) = \frac{{e^{- 2} \cdot 2}^{1}}{1!} = 2e^{- 2}\]
+
+Thus the probability with which player 1 expects player 2 to play as a
+level-0 player equals \(\frac{1}{3}\).
+
+And the probability with which player 1 expects player 2 to play as a
+level-1 player equals\(\ \frac{2}{3}\).
+
+Player 1 can now maximize its payoffs for
+\(x_{2} = \frac{1}{3} \cdot 500 + \frac{2}{3} \cdot 600 = 566\frac{2}{3}\)
+:
+
+\[\pi_{1} = 1000 - |x_{1} - 396\frac{2}{3}|\]
+
+This function is maximized if \(x_{1} = 396\frac{2}{3}\).
+
+Player 1 would choose to play \(x_{1} = 396\frac{2}{3}\).
+
+\item
+
+Player 2 now estimates player 1 to play
+\(x_{1} = \frac{1}{3} \cdot 400 + \frac{2}{3} \cdot 350 = 366\frac{2}{3}\)
+
+\[\pi_{2} = 1000 - |x_{2} - 550|\]
+
+This function is maximized if \(x_{2} = 550\).
+
+Player 2 would choose to play \(x_{2} = 550\).
+
+\item
+
+The Nash equilibrium of this game can be calculated as follows:
+
+\[FOC:\frac{\partial\pi_{1}}{\partial x_{1}} = - \frac{x_{1} - 0.7x_{2}}{{|x}_{1} - 0.7x_{2}|} = 0 \Leftrightarrow BR_{1} = x_{1} = 0.7x_{2}\]
+
+\[FOC:\ \frac{\partial\pi_{2}}{\partial x_{2}} = - \frac{x_{2} - 1.5x_{1}}{{|x}_{2} - 1.5x_{1}|} = 0 \Leftrightarrow BR_{2} = x_{2} = 1.5x_{1}\]
+
+This system of equations only leaves no incentives to deviate if and
+only if \(x_{1} = 500\ \)and \(x_{2} = 750\). This can be concluded
+after starting from a starting point \((x_{1},x_{2})\) and subsequently
+best responding for both players.
+
+\item
+We conducted a survey via Google forms (\url{https://goo.gl/forms/FLeriAeiVohzhN6g1}) and obtained the following results:\\
+\\
+\begin{tabular}{ccc}
+Datetime & As player 1 & As player 2 \\
+30-10-2017 21:04:58 & 400 & 500 \\
+30-10-2017 21:08:57 & 400 & 500 \\
+30-10-2017 21:10:46 & 500 & 400 \\
+30-10-2017 21:15:10 & 350 & 600 \\
+30-10-2017 22:05:55 & 300 & 450 \\
+30-10-2017 22:14:52 & 499 & 899 \\
+30-10-2017 22:55:18 & 445 & 675 \\
+31-10-2017 12:20:43 & 444 & 666 \\
+1-11-2017 19:30:06 & 400 & 550 \\
+1-11-2017 19:52:44 & 500 & 100 \\
+1-11-2017 20:57:13 & 300 & 100 \\
+1-11-2017 21:15:47 & 300 & 100 \\
+\end{tabular}
+
+\item
+The choices seem pretty random, one of the main problems of the experiment was a lack of understanding of the problem among the participants. We conclude therefore that most players are of type level-0, however one player choose the strategy corresponding to the level-1 type player. No player acted according to the Nash equilibrium or any higher level-k type.
+
+\end{enumerate}
+\subsubsection{Question 2}
+\begin{enumerate}[(a)]
+\item
+Suppose player 1 bids \(b_{1}\) and player 2 bids
+\(b_{2} = \frac{1}{2}s_{2}\) (i.e. we assume this to be the optimal
+bidding strategy for player 2), the probability that player 1 wins the
+auction is:
+
+\[\Pr\left( b_{1}\text{\ wins} \right) = \Pr\left( b_{2} < b_{1} \right) = \Pr\left( \frac{1}{2}s_{2} < b_{1} \right) = \Pr\left( s_{2} < 2b_{1} \right) = 2b_{1}\]
+
+
+The expected value of signal \(s_{2}\), given \(s_{2} < 2b_{1}\), equals
+\(\frac{1}{2} \cdot 2b_{1} = b_{1}\). Then, it becomes clear that the
+expected value of the object, subject to winning the auction with bid
+\(b_{1}\), will be equal to \(\frac{s_{1} + b_{1}}{2}\). Thus, the
+expected payoff of bidding \(b_{1}\) for player 1 is:
+
+
+\[E\left( u_{1} \right) = 2b_{1} \cdot \frac{s_{1} + b_{1}}{2}\]
+
+\[ \frac{\partial u_1}{\partial b_1} = s_{1} - 2b_{1} = 0 \iff b_{1}^{*} = \frac{1}{2}s_{1}\]
+
+Similarly, given that player 1 plays \(b_{1} = \frac{1}{2}s_{1}\),
+player 2's best response will then be
+\(b_{2}^{*} = \frac{1}{2}s_{2}\).
+Therefore we can conclude that the strategies
+\(b_{i} = \frac{s_{1}}{2}\) for \(i = 1,2\) constitute a Nash
+equilibrium as there is no profitable deviation possible.
+
+\item
+A level-1 player 1 best responds to the level-0 player 2, the probability of winning equals $\Pr(b_2<b_1)=b$.
+The expected value of the item is $\frac{1}{2}(s_1+\frac{1}{2})=\frac{2s+1}{4}$.
+Thus, the expected payoff when bidding $b_1$ is: 
+\[E(u_1(b_1))=b_1\left(\frac{2s+1}{4}-b_1\right)\]
+We maximize this function w.r.t. $b_1$:
+$$FOC: \frac{2s_1+1}{4}-2b_1=0 \iff b_1^*=\frac{2s+1}{8}$$
+\item
+A level-1 player 1 best responds to the level-0 player 2 playing their signal. The probability of winning the auction equals $\Pr(b_2=s_2<b_1)=b_1$. The expected signal of player 2 $s_2$ conditional on player 1 winning is equal to $\frac{1}{2}b_1$.The expected value of the item conditional on player 1 winning the auction is $\frac{1}{2}(s_1+\frac{1}{2}b_1)=\frac{1}{4}(2s_1+b_1)$. Thus, the expected payoff when bidding $b_1$ is:
+$$E(u_1(b_1))=b_1\left(\frac{2s_1+b_1}{4}-b_1\right)$$
+We maximize this equation w.r.t. $b_1$:
+$$FOC: \frac{2s_1-6b_1}{4}=0 \iff b_1^*=\frac{1}{3}s_1$$
+\item
+Under (b), if player 1 wins the auction, the signal of player 2 is completely unknown to player 1 and drawn randomly and independently from a uniform distribution on the interval [0,1] and its expectation is therefore $\frac{1}{2}$. 
+\\ \\
+Under (c), contrary to under (b), the bid of player 2 is related to his signal. Knowing this, player 1 can conclude that in the case that he wins the auction, the signal of player 2 is lower than the bid of player 1. The expectation of the signal of player 2 therefore becomes $\frac{1}{2}b_1$, which is lower than the expectation of the signal under (b) ($\frac{1}{2}>\frac{1}{2}b_1$). 
+\\ \\
+As under (b) the expected signal of player 2 is higher than under (c), the expected value of the item that depends on the signal of both players is higher under (b) than under (c) as well. As the expected value of the item is greater under (b), it seems intuitive to bid higher as well. 
+\end{enumerate}
+\subsubsection{Question 3}
+
+\begin{enumerate}[(a)]
+\item
+Given that player 2 randomizes on the interval [0,1], player 1 wins if his bid $b_1$ is greater than the bid of player 2.
+
+\[\Pr(\text{Player 1 wins})=\Pr(b_1>b_2)=b_1\]
+
+The utility from winning is equal to the value of player 1 minus his bid (\(v_1-b_1\)). This causes the expected utility to be equal to:
+
+\[E(u_1(b_1))=b_1\left(v_1-b_1\right)\]
+
+We can maximize this function w.r.t. $b_1$:
+
+\[FOC: \frac{\partial E(u_1)}{\partial b_1}=v_1-2b_1=0 \iff b_1^*=\frac{1}{2}v_1\]
+
+Therefore we can conclude that bidder 1 as a level-1 player would choose a bid that is half his value.
+
+\item
+
+Knowing that bidder 1 will choose to bid $\frac{1}{2}v_1$, bidder 2 will choose to best respond to this. Bidder 2 knows that the bid of player 1 is drawn from a uniform distribution on the interval [0,\sfrac{1}{2}]. This means that bidding more than \sfrac{1}{2} will lead to surely winning the auction. If bidder 2 bids less than \sfrac{1}{2}, the probability of winning is equal to:
+\[\Pr\left(\text{bidder 2 wins with bid }\le \sfrac{1}{2}\right)=\Pr(b_2>b_1(v_1))=\Pr\left(b_2>\frac{v_1}{2}\right)=\Pr(v_2<2b_1)=2b_1\]
+
+Hence, bidder 2's expected payoff for a given $v_2$ as a function of the bid $b_1$ is:
+
+\[
+    E(u_1(b_1,b_2;v_2))= 
+\begin{cases}
+    2b_2(v_2-b_2),& \text{if } 0 \le b_2 \le \frac{1}{2}\\
+    v_2-b_2,              & \text{if } b_2>\frac{1}{2}
+\end{cases}
+\]
+This function is maximized if $2v_2-4b_2=0 \iff b_2^*=\frac{1}{2}v_2$
+
+Therefore we can conclude that bidder 2 as a level-2 player would choose a bid that is half his value as well.  
+
+
+\item
+
+Playing your own value is the best response to each type of player as it is a
+dominant strategy, For each Level-k player it is thus optimal to bid
+their private value.
+
+\end{enumerate}
+\subsubsection{Question 4}
+
+\begin{enumerate}[(a)]
+\item
+
+
+By inspection, (U, L) and (D, R) are PSNE's
+
+Mixed:
+
+\[u_{R}\left( U,\ \sigma_{C} \right) = p_{L}x = \left( 1 - p_{L} \right) = u_{R}\left( D,\sigma_{C} \right) \Leftrightarrow p_{L} = \frac{1}{x + 1}\]
+
+\[u_{C}\left( \sigma_{R},L \right) = q_{U} = 2\left( 1 - q_{U} \right) = u_{C}\left( \sigma_{R},R \right) \Leftrightarrow q_{U} = \frac{2}{3}\]
+
+Thus, the MSNE of this game is
+\(\left( q_{U},p_{L} \right) = \left( \frac{2}{3},\frac{1}{x + 1} \right)\)
+\item
+The QRE if the probability that player Ron will choose strategy U is
+given by:
+
+\[q_{U} = \frac{e^{\lambda(p_{L}x)}}{{e^{\lambda\left( p_{L}x \right)} + e}^{\lambda(1 - p_{L})}}\]
+
+\[p_{L} = \frac{e^{\lambda q_{U}}}{{e^{\lambda q_{U}} + e}^{\lambda\left( 2 - 2q_{U} \right)}}\]
+
+\item
+If x=2:\\
+\includegraphics[]{/Users/Joost/plotSNSB1.png}\\
+The intersection is at \(\left( p_{L},q_{U} \right) \approx (0.52,\ 0.63)\)
+
+\item The QRE takes into account that players make errors. Players tend
+to make more `cheap' errors rather than `expensive' errors. The QRE
+weights strategies with relatively high payoffs higher, as the players
+are more likely to play strategies with higher expected payoffs relative
+to the other strategies. The QRE is therefore different from the outcome
+according to the Nash equilibrium.
+
+\end{enumerate}
+\subsubsection{Question 5}
+
+\begin{enumerate}[(a)]
+\item
+To find the Nash equilibrium investment levels we have to find the
+best-response reaction functions of both player X and Y.
+
+Firstly, player X's best response:
+
+\[U_{X}\left( x,y \right) = x \cdot \left( \frac{1}{2} \cdot y + 75 - x \right)\]
+
+\[U_{X}^{'}\left( x,y \right) = \frac{1}{2}y + 75 - 2x = 0 \Leftrightarrow x = \frac{1}{4} \cdot y + 37\frac{1}{2}\]
+
+Thus, the best-response function for player X is
+\(x = \frac{1}{4} \cdot y + 37\frac{1}{2}\).
+
+Secondly, player Y's best response:
+
+\[U_{y}\left( x,y \right) = y \cdot \left( \frac{1}{2} \cdot x + 75 - y \right)\]
+
+\[U_{X}^{'}\left( x,y \right) = \frac{1}{2}x + 75 - 2y = 0 \Leftrightarrow y = \frac{1}{4} \cdot x + 37\frac{1}{2}\]
+
+Thus, the best-response function for player Y is
+\(y = \frac{1}{4} \cdot x + 37\frac{1}{2}\).
+
+We now substitute one into the other to find the optimal investment
+levels for both investors. We then find:
+
+\[x = \frac{1}{4} \cdot \left( \frac{1}{4}x + 37\frac{1}{2} \right) + 37\frac{1}{2} \iff x^{*} = \frac{46\frac{7}{8}}{\frac{15}{16}} = 50\]
+
+Substituting for \(x^{*}\) in the best-response function of investor Y gives
+\(y^{*} = 50\) as well.
+
+Thus, the Nash equilibrium of investment levels is the following:
+\(\left( x^{*},y^{*} \right) = (50,\ 50)\).
+
+\item
+By saying that investor X is a level-1 type, we assume that investor
+X best-responds to investor Y being of type level-0. Investor Y
+randomizes his investment level. Therefore the expected investment level
+of investor Y will be
+\(E(y) = \frac{1}{2} \cdot \left( 200 - 0 \right) = 100\). Investor X
+then chooses:
+
+\[x = \frac{1}{4} \cdot 100 + 37\frac{1}{2} = 62\frac{1}{2}\]
+
+\item
+We use the following formula to determine the probabilities with
+which investor Y is believed to mix between level-0 and level-1,
+according to the Poisson distribution with \(\tau = 1.5\):
+
+\[f\left( level - k \right) = \frac{e^{- \tau} \cdot \tau^{k}}{k!}\ \]
+
+Solving this for level-0 and level-1 types gives us
+\(f\left( 0 \right) = e^{- 1.5} \approx 0.6065\) and
+\(f\left( 1 \right) = 1\frac{1}{2} \cdot e^{- 1.5} \approx 0.9098\)
+respectively.
+
+This results in the following expected strategy of investor Y as a
+mixture of level-0 and level-1 types:
+
+\[y = \frac{2}{5} \cdot 100 + \frac{3}{5} \cdot 62\frac{1}{2} = 77\frac{1}{2}\ \]
+
+
+Then, investor X maximizes his payoff to best-respond on this. Thus, the
+strategy for investor X as a level C-2 will then be
+\(x = \frac{1}{4} \cdot 77\frac{1}{2} + 37\frac{1}{2} = 56\frac{7}{8}\).
+
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+ \emph{Investment level}\tabularnewline
+\midrule
+
+\textbf{Level-0} & 100\tabularnewline
+\textbf{Level-1} & 62,5\tabularnewline
+\textbf{Level C-2} & 56 \sfrac{7}{8}\tabularnewline
+\bottomrule
+\end{longtable}
+
+
+\item
+We have seen under a that the investment levels constituting the Nash
+equilibrium of this decision game equal
+\(\left( x,y \right) = (50,\ 50)\).
+
+We can conclude that the Cognitive Hierarchy model with C-2 believes
+approaches the Nash equilibrium the closest, when comparing equilibria
+of the three different types considered above.
+\end{enumerate}
+
+\subsubsection{Question 6}
+\begin{enumerate}[(a)]
+\item
+To find the Nash equilibrium investment levels we have to find the
+best-response reaction functions of both player X and Y.
+
+
+Firstly, player X's best response:
+
+
+\[U_{X}\left( x,y \right) = x \cdot \left( - \frac{1}{2} \cdot y + 125 - x \right)\]
+
+\[U_{X}^{'}\left( x,y \right) = - \frac{1}{2}y + 125 - 2x = 0 \Leftrightarrow x = 62\frac{1}{2} - \frac{1}{4} \cdot y\]
+
+Thus, the best-response function for player X is
+\(x = 62\frac{1}{2} - \frac{1}{4} \cdot y\).
+
+Secondly, player Y's best response:
+
+\[U_{y}\left( x,y \right) = y \cdot \left( - \frac{1}{2} \cdot x + 125 - y \right)\]
+
+\[U_{X}^{'}\left( x,y \right) = - \frac{1}{2}x + 125 - 2y = 0 \Leftrightarrow y = 62\frac{1}{2} - \frac{1}{4} \cdot x\]
+
+Thus, the best-response function for player Y is
+\(y = 62\frac{1}{2} - \frac{1}{4} \cdot x\).
+
+We now substitute one into the other to find the optimal investment
+levels for both investors. We then find:
+
+\[x = 62\frac{1}{2} - \frac{1}{4} \cdot \left( 62\frac{1}{2} - \frac{1}{4} \cdot x \right)\iff x^{*} = \frac{46\frac{7}{8}}{\frac{15}{16}} = 50\]
+
+Filling \(x^{*}\) in the best-response function of investor Y gives
+\(y^{*} = 50\) as well.
+
+Thus, the Nash equilibrium of investment levels is the following:
+\(\left( x^{*},y^{*} \right) = (50,\ 50)\).
+\item
+By saying that investor X is a level-1 type, we assume that investor
+X best-responds to investor Y being of type level-0. Investor Y
+randomizes his investment level. Therefore the expected investment level
+of investor Y will be
+\(E(y) = \frac{1}{2} \cdot \left( 200 - 0 \right) = 100\). Investor X
+then chooses:
+
+\[x = 62\frac{1}{2} - \frac{1}{4} \cdot 100 = 37\frac{1}{2}\]
+
+\item
+We use the following formula to determine the probabilities with
+which investor Y is believed to mix between level-0 and level-1,
+according to the Poisson distribution with \(\tau = 1.5\):
+
+\[f\left( level - k \right) = \frac{e^{- \tau} \cdot \tau^{k}}{k!}\ \]
+
+Solving this for level-0 and level-1 types gives us
+\(f\left( 0 \right) = e^{- 1.5} \approx 0.6065\) and
+\(f\left( 1 \right) = 1\frac{1}{2} \cdot e^{- 1.5} \approx 0.9098\)
+respectively.
+
+This results in the following expected strategy of investor Y as a
+mixture of level-0 and level-1 types:
+
+\[y = \frac{2}{5} \cdot 100 + \frac{3}{5} \cdot 37\frac{1}{2} = 62\frac{1}{2}\]
+
+Then, investor X maximizes his payoff to best-respond on this. Thus, the
+strategy for investor X as a level C-2 will then be
+\(x = 62\frac{1}{2} - \frac{1}{4} \cdot 62\frac{1}{2} = 46\frac{7}{8}\).
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\emph{Investment level }\tabularnewline
+\midrule
+
+\textbf{Level-0} & 100\tabularnewline
+\textbf{Level-1} & 37 1/2\tabularnewline
+\textbf{Level C-2} & 46 7/8\tabularnewline
+\bottomrule
+\end{longtable}
+
+
+\item
+We have seen under a that the investment levels constituting the Nash
+equilibrium of this decision game equal
+\(\left( x,y \right) = (50,\ 50)\).
+
+We can conclude that the Cognitive Hierarchy model with C-2 believes
+approaches the Nash equilibrium the closest, when comparing equilibria
+of the three different types considered above.
+
+\end{enumerate}
+
+\subsubsection{Question 7}
+
+\begin{enumerate}[(a)]
+\item
+As can be concluded from the table, the highest payoff in each column always arises from providing the same effort as the minimum effort of the other players. As the payoffs are the same for each player, every outcome where all participants choose the same number is a Nash equilibrium as no player has an incentive to deviate in these outcomes. The Nash equilibria are therefore: $$(\text{Effort of player }i, \text{Effort of player }j\text{ where }j\ne i)=(7,7),(6,6),(5,5),(4,4),(3,3),(2,2),(1,1)$$
+
+As these Nash equilibria are always of this kind, regardless of the number of players, they do not depend on the number of players. 
+
+\item
+Contrary to the answer under (a), the actual play of the game can depend on the number of players as with a higher number of players it may be harder to coordinate effort levels of all players to be the same as there may be a lack of trust in the one-shot simultaneous move game. 
+
+\item
+A level-k analysis of the game predicts that play will depend on the number of players as an increase in the number of people that randomize their play leads to an increase of the chance that someone will choose the lowest effort level. This will lead to level-1 players choosing lower effort levels when there are more players involved. \\This reasoning holds for level-k analyses above level-1 too. Because a level-k player believes that people believe that people believe that ... all other players are level-0 players, a higher number of players will always lead to a player choosing a lower effort level. 
+
+\item
+If payoffs are determined by the median effort in the group, there is a lower chance of your own effort level affecting the outcome if your effort is low. It therefore can become "cheaper" to exert lower effort levels leading to the optimal effort level to become effort $=1$. This being true for all players could lead to the outcome being the effect of all players choosing an effort level of effort $=1$.
+
+\item
+Minimum effort setting: \\
+If on a low lying island each citizen is required to build a certain length of the dike surrounding the island, the piece of the dike that has required the least amount of effort can have the highest chance of causing a flood that imposes a cost on the entire population. The quality of the dike is thus determined by the weakest part of the dike. 
+
+Median effort setting:\\
+In a group assignment, students that exert low effort levels might be overruled by the students that exert higher effort levels. This can cause the grading of the assignment to be an outcome of the median effort level in the group. For the lowest effort levels it then does not make a difference whether any effort is exerted at all. This example does however not quite hold for the upper bound of the effort distribution.
+\end{enumerate}
+\subsubsection{Question 8}
+
+In this variation, it would be possible for an information cascade to occur. However, for this it is necessary that the tie-breaking assumption does not hold. The tie-breaking assumption states that if an indifferent individual adopts his own signal as his choice (Bikhchandani, Hirshleifer, and Welch (1992)). This means that in this variation, the individual should choose his own signal if the observed signal is different from his own signal in order to prevent an information cascade.
+
+\subsubsection{Question 9}
+
+Assuming that all patrons are rational and that the tie-breaking assumption holds, the current distribution of patrons over the two restaurants can be arrived at in the following way:
+
+The customers arrive at the restaurant in the following order:\\ $S_1\rightarrow S_2 \rightarrow S_3 \rightarrow S_4 \rightarrow S_5 \text{(which is us)}$
+
+$S_1 \text{ or } S_2$ gets signal A and follows his signal,\\
+$S_2 \text{ or } S_1$ gets signal B and follows his signal,\\
+$S_3$ gets signal B and follows his signal,\\
+the choice of $S_4$ is not dependent on his signal, he will choose $B$ either way.\\
+
+We would be indifferent between both restaurants as the number of known signals A and B are equal. Under the tie-breaking assumption we would and should thus choose restaurant A.
+
+Under the rationality assumption, knowing the order in which the patrons entered the two restaurants would and should not matter, since the two possible sequences lead to the same conclusion.
+
+
+
+
+
+\end{document}
